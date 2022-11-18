@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    /* padding: 0px 400px; */
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-header {
+    /* padding: 18px; */
+    align-self: center;
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+}
