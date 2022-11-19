@@ -7,9 +7,6 @@ body {
 /* Hero Section */
 
 .hero-box {
-    /* border: 3px solid red; */
-
-    
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 0px 300px;
@@ -20,9 +17,6 @@ body {
 }
 
 .header {
-    /* border: 3px solid red; */
-
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,8 +31,6 @@ h1.left {
 }
 
 .bottom-header {
-    /* border: 3px solid red; */
-
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -48,7 +40,6 @@ h1.left {
 
 .left {
     margin-bottom: 15px;
-    
 }
 
 h1,
@@ -57,7 +48,7 @@ p {
     margin: 0;
 }
 
-img {
+img.header-cat {
     max-width: 50%;
     height: auto;
     margin-left: 150px;
@@ -101,4 +92,50 @@ button {
     font-size: large;
     font-weight: 800;
     border: 2px solid #3882F6;
+}
+
+/* Informations Section */
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.informations-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.title-text {
+    padding: 20px;
+}
+
+img.info-cat {
+    border: 6px solid #3882F6;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.inner-info-box {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 259px;
+}
+
+.info-text {
+    text-align: center;
 }
