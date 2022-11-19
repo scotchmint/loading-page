@@ -49,8 +49,8 @@ p {
 }
 
 img.header-cat {
-    max-width: 50%;
-    height: auto;
+    width: 800px;
+    height: 400px;
     margin-left: 150px;
 }
 
