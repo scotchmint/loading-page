@@ -184,7 +184,6 @@ img.info-cat {
     display: flex;
     align-items: center;
     gap: 150px;
-    
 }
 
 .call-to-action {
@@ -211,5 +210,11 @@ button.signup-button {
 /* Footer */
 
 footer {
-    
+    background-color: #1F2937;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #E5E7EB;
 }
