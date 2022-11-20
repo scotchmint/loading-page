@@ -23,7 +23,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0px;
-    
 }
 
 h1.left {
@@ -36,8 +35,9 @@ h1.left {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
-    padding: 50px 0px;    
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 150px;
 }
 
 .left {
@@ -51,9 +51,8 @@ p {
 }
 
 img.header-cat {
-    width: 800px;
-    height: 400px;
-    margin-left: 150px;
+    max-width: 600px;
+    flex: 0 1 50%;
 }
 
 .logo {
