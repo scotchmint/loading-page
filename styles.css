@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex:0;
+    
+
 }
 
 .header {
@@ -120,6 +121,8 @@ img.info-cat {
     width: 250px;
     height: 200px;
     margin-bottom: 10px;
+
+    
 }
 
 .inner-info-box {
@@ -127,6 +130,7 @@ img.info-cat {
     justify-content: center;
     padding: 15px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .item {
